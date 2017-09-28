@@ -1,4 +1,4 @@
-update=Mon 25 Sep 2017 02:07:16 PM EDT
+update=Thursday, September 28, 2017 'PMt' 03:55:39 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,5 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=nxp_armmcu
-LibName31=nxp_kinetis
-LibName32=k20_dev_board
+LibName31=k20_dev_board
+LibName32=switches
