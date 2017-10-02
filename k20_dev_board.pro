@@ -1,4 +1,4 @@
-update=Thursday, September 28, 2017 'PMt' 03:55:39 PM
+update=Monday, October 02, 2017 'PMt' 03:03:54 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=nxp_armmcu
 LibName31=k20_dev_board
 LibName32=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
