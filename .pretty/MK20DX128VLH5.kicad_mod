@@ -1,0 +1,8 @@
+(module MK20DX128VLH5 (layer F.Cu) (tedit 59DD2C7B)
+  (fp_text reference REF** (at 0 8.89) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value MK20DX128VLH5 (at 0 -12.7) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
