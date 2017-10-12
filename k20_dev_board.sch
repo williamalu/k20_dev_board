@@ -933,13 +933,13 @@ F 3 "" H 13100 5600 50  0001 C CNN
 $EndComp
 Text Label 12500 5500 0    60   ~ 0
 USB_VBUS
-Text Label 10500 6300 2    60   ~ 0
-ADC0_DP3
 Text Label 11000 6300 0    60   ~ 0
+ADC0_DP3
+Text Label 10500 6300 2    60   ~ 0
 ADC0_DM3
-Text Label 10500 6200 2    60   ~ 0
-ADC0_DP0
 Text Label 11000 6200 0    60   ~ 0
+ADC0_DP0
+Text Label 10500 6200 2    60   ~ 0
 ADC0_DM0
 Text Label 11000 4500 0    60   ~ 0
 PTC0
