@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:k20_dev_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -687,8 +688,6 @@ Text Label 4200 4500 2    60   ~ 0
 JTAG_TDO
 Text Label 4200 4600 2    60   ~ 0
 JTAG_TMS
-Text Label 4200 4700 2    60   ~ 0
-PTA4
 Text Label 4200 4800 2    60   ~ 0
 ~JTAG_TRST
 $Comp
@@ -777,75 +776,75 @@ $EndComp
 $Comp
 L Conn_02x10_Odd_Even J4
 U 1 1 59D262B4
-P 10900 5100
-F 0 "J4" H 10950 5600 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 10950 4500 50  0000 C CNN
-F 2 "k20_dev_board:PPTC102LFBN-RC" H 10900 5100 50  0001 C CNN
-F 3 "" H 10900 5100 50  0001 C CNN
-	1    10900 5100
-	-1   0    0    1   
+P 10800 5800
+F 0 "J4" H 10850 6300 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 10850 5200 50  0000 C CNN
+F 2 "k20_dev_board:PPTC102LFBN-RC" H 10800 5800 50  0001 C CNN
+F 3 "" H 10800 5800 50  0001 C CNN
+	1    10800 5800
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_02x08_Odd_Even J5
 U 1 1 59D26368
-P 10900 6200
-F 0 "J5" H 10950 6600 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 10950 5700 50  0000 C CNN
-F 2 "k20_dev_board:PPTC082LFBN-RC" H 10900 6200 50  0001 C CNN
-F 3 "" H 10900 6200 50  0001 C CNN
-	1    10900 6200
-	-1   0    0    1   
+P 10800 4700
+F 0 "J5" H 10850 5100 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 10850 4200 50  0000 C CNN
+F 2 "k20_dev_board:PPTC082LFBN-RC" H 10800 4700 50  0001 C CNN
+F 3 "" H 10800 4700 50  0001 C CNN
+	1    10800 4700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Conn_02x08_Odd_Even J6
 U 1 1 59D26417
-P 12300 5000
-F 0 "J6" H 12350 5400 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 12350 4500 50  0000 C CNN
-F 2 "k20_dev_board:PPTC082LFBN-RC" H 12300 5000 50  0001 C CNN
-F 3 "" H 12300 5000 50  0001 C CNN
-	1    12300 5000
-	1    0    0    -1  
+P 12200 5900
+F 0 "J6" H 12250 6300 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 12250 5400 50  0000 C CNN
+F 2 "k20_dev_board:PPTC082LFBN-RC" H 12200 5900 50  0001 C CNN
+F 3 "" H 12200 5900 50  0001 C CNN
+	1    12200 5900
+	1    0    0    1   
 $EndComp
 $Comp
 L Conn_02x06_Odd_Even J7
 U 1 1 59D264B3
-P 12300 6200
-F 0 "J7" H 12350 6500 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 12350 5800 50  0000 C CNN
-F 2 "k20_dev_board:PPTC062LFBN-RC" H 12300 6200 50  0001 C CNN
-F 3 "" H 12300 6200 50  0001 C CNN
-	1    12300 6200
-	1    0    0    -1  
+P 12200 4700
+F 0 "J7" H 12250 5000 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 12250 4300 50  0000 C CNN
+F 2 "k20_dev_board:PPTC062LFBN-RC" H 12200 4700 50  0001 C CNN
+F 3 "" H 12200 4700 50  0001 C CNN
+	1    12200 4700
+	1    0    0    1   
 $EndComp
-Text Label 10600 5300 2    60   ~ 0
+Text Label 12000 4900 2    60   ~ 0
 PTA13/FTM1_CH1
-Text Label 10600 5400 2    60   ~ 0
+Text Label 12500 4900 0    60   ~ 0
 PTA12/FTM1_CH0
-Text Label 10600 6000 2    60   ~ 0
+Text Label 11000 4600 0    60   ~ 0
 PTC2/FTM0_CH1
-Text Label 10600 5500 2    60   ~ 0
+Text Label 10500 5400 2    60   ~ 0
 PTD2
-Text Label 10600 5100 2    60   ~ 0
+Text Label 10500 5500 2    60   ~ 0
 PTD3
-Text Label 10600 5000 2    60   ~ 0
+Text Label 10500 5100 2    60   ~ 0
 PTD1
-Text Label 10600 4800 2    60   ~ 0
+Text Label 10500 6100 2    60   ~ 0
 VREFH
-Text Label 10600 4700 2    60   ~ 0
+Text Label 12500 4600 0    60   ~ 0
 PTB3
-Text Label 10600 4600 2    60   ~ 0
+Text Label 12500 4700 0    60   ~ 0
 PTB2
 $Comp
 L GND #PWR027
 U 1 1 59D27957
-P 10250 4900
-F 0 "#PWR027" H 10250 4650 50  0001 C CNN
-F 1 "GND" H 10250 4750 50  0000 C CNN
-F 2 "" H 10250 4900 50  0001 C CNN
-F 3 "" H 10250 4900 50  0001 C CNN
-	1    10250 4900
-	1    0    0    -1  
+P 9700 6000
+F 0 "#PWR027" H 9700 5750 50  0001 C CNN
+F 1 "GND" H 9700 5850 50  0000 C CNN
+F 2 "" H 9700 6000 50  0001 C CNN
+F 3 "" H 9700 6000 50  0001 C CNN
+	1    9700 6000
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C15
@@ -893,90 +892,80 @@ F 3 "" H 6700 1900 50  0001 C CNN
 $EndComp
 Text Label 6600 1950 1    60   ~ 0
 VREFH
-Text Label 11100 6500 0    60   ~ 0
+Text Label 11000 5100 0    60   ~ 0
 PTD0
-Text Label 11100 6400 0    60   ~ 0
+Text Label 10500 5000 2    60   ~ 0
 PTC11
-Text Label 11100 6300 0    60   ~ 0
+Text Label 10500 4700 2    60   ~ 0
 PTC5
-Text Label 11100 6200 0    60   ~ 0
+Text Label 11000 4800 0    60   ~ 0
 PTC6
-Text Label 11100 6100 0    60   ~ 0
+Text Label 10500 4800 2    60   ~ 0
 PTC7
-Text Label 10600 5200 2    60   ~ 0
+Text Label 10500 5900 2    60   ~ 0
 PTD7/FTM0_CH7
-Text Label 11100 5800 0    60   ~ 0
+Text Label 10500 4900 2    60   ~ 0
 PTC9
-Text Label 10600 6500 2    60   ~ 0
+Text Label 11000 6100 0    60   ~ 0
 PTE1/UART1_RX
-Text Label 10600 6400 2    60   ~ 0
+Text Label 11000 6000 0    60   ~ 0
 PTE0/UART1_TX
-Text Label 10600 6200 2    60   ~ 0
+Text Label 10500 5600 2    60   ~ 0
 PTD4/FTM0_CH4
-Text Label 10600 6100 2    60   ~ 0
+Text Label 11000 4900 0    60   ~ 0
 PTC8
-Text Label 10600 5900 2    60   ~ 0
+Text Label 10500 4600 2    60   ~ 0
 PTC3/FTM0_CH2
-Text Label 10600 5800 2    60   ~ 0
+Text Label 11000 4700 0    60   ~ 0
 PTC4/FTM0_CH3
-Text Label 12600 4900 0    60   ~ 0
+Text Label 12500 6000 0    60   ~ 0
 ~RESET
 $Comp
 L GND #PWR030
 U 1 1 59D2C475
-P 13200 5200
-F 0 "#PWR030" H 13200 4950 50  0001 C CNN
-F 1 "GND" H 13200 5050 50  0000 C CNN
-F 2 "" H 13200 5200 50  0001 C CNN
-F 3 "" H 13200 5200 50  0001 C CNN
-	1    13200 5200
-	1    0    0    -1  
+P 13100 5600
+F 0 "#PWR030" H 13100 5350 50  0001 C CNN
+F 1 "GND" H 13100 5450 50  0000 C CNN
+F 2 "" H 13100 5600 50  0001 C CNN
+F 3 "" H 13100 5600 50  0001 C CNN
+	1    13100 5600
+	-1   0    0    -1  
 $EndComp
-Text Label 12600 5400 0    60   ~ 0
+Text Label 12500 5500 0    60   ~ 0
 USB_VBUS
-Text Label 12100 6000 2    60   ~ 0
-CMP1_IN5
-Text Label 12100 6100 2    60   ~ 0
-CMP1_IN3
-Text Label 12100 6200 2    60   ~ 0
+Text Label 10500 6300 2    60   ~ 0
 ADC0_DP3
-Text Label 12100 6300 2    60   ~ 0
+Text Label 11000 6300 0    60   ~ 0
 ADC0_DM3
-Text Label 12100 6400 2    60   ~ 0
+Text Label 10500 6200 2    60   ~ 0
 ADC0_DP0
-Text Label 12100 6500 2    60   ~ 0
+Text Label 11000 6200 0    60   ~ 0
 ADC0_DM0
-Text Label 12600 6000 0    60   ~ 0
+Text Label 11000 4500 0    60   ~ 0
 PTC0
-Text Label 12600 6100 0    60   ~ 0
+Text Label 10500 4500 2    60   ~ 0
 PTC1/FTM0_CH0
-Text Label 12600 6200 0    60   ~ 0
+Text Label 10500 5800 2    60   ~ 0
 PTD6/FTM0_CH6
-Text Label 12600 6300 0    60   ~ 0
+Text Label 10500 5700 2    60   ~ 0
 PTD5/FTM0_CH5
-Text Label 12600 6400 0    60   ~ 0
+Text Label 12000 4800 2    60   ~ 0
 PTB1/FTM1_CH1
-Text Label 12600 6500 0    60   ~ 0
+Text Label 12500 4800 0    60   ~ 0
 PTB0/FTM1_CH0
 Text Label 8700 3300 0    60   ~ 0
 PTA13/FTM1_CH1
 Text Label 8700 5500 0    60   ~ 0
 PTC10
-NoConn ~ 11100 5200
-NoConn ~ 11100 5100
-NoConn ~ 11100 5000
-NoConn ~ 11100 4900
-NoConn ~ 11100 4800
-NoConn ~ 11100 4700
-NoConn ~ 11100 4600
-NoConn ~ 12100 4700
-NoConn ~ 12100 4800
-NoConn ~ 12100 4900
-NoConn ~ 12100 5000
-NoConn ~ 12100 5100
-NoConn ~ 12100 5200
-NoConn ~ 12100 5300
-NoConn ~ 12100 5400
+NoConn ~ 11000 5700
+NoConn ~ 11000 5800
+NoConn ~ 11000 5900
+NoConn ~ 12000 6000
+NoConn ~ 12000 5900
+NoConn ~ 12000 5800
+NoConn ~ 12000 5700
+NoConn ~ 12000 5600
+NoConn ~ 12000 5500
 Text Label 8700 3200 0    60   ~ 0
 PTA12/FTM1_CH0
 Text Label 8700 4600 0    60   ~ 0
@@ -1026,10 +1015,6 @@ Text Label 8700 4800 0    60   ~ 0
 PTC4/FTM0_CH3
 Text Label 8700 6300 0    60   ~ 0
 PTD5/FTM0_CH5
-Text Label 8700 3000 0    60   ~ 0
-CMP1_IN5
-Text Label 4200 4100 2    60   ~ 0
-CMP1_IN3
 Text Label 4200 3800 2    60   ~ 0
 ADC0_DP3
 Text Label 4200 3900 2    60   ~ 0
@@ -1081,32 +1066,30 @@ F 3 "" H 2250 4900 50  0001 C CNN
 	1    2250 4900
 	1    0    0    -1  
 $EndComp
-Text Label 12600 5100 0    60   ~ 0
+Text Label 12500 5800 0    60   ~ 0
 USB_VBUS
 Text Label 1750 4450 3    60   ~ 0
 USB_VBUS
-Text Label 11100 6000 0    60   ~ 0
-PTA4
-Text Label 10600 6300 2    60   ~ 0
+Text Label 11000 5000 0    60   ~ 0
 PTC10
 Text Label 8700 3900 0    60   ~ 0
 PTB16
 Text Label 8700 4000 0    60   ~ 0
 PTB17
-Text Label 11100 5500 0    60   ~ 0
+Text Label 12500 4500 0    60   ~ 0
 PTB16
-Text Label 11100 5400 0    60   ~ 0
+Text Label 12500 4400 0    60   ~ 0
 PTB17
 Text Label 8700 4100 0    60   ~ 0
 PTB18
 Text Label 8700 4200 0    60   ~ 0
 PTB19
-Text Label 11100 5300 0    60   ~ 0
+Text Label 11000 4400 0    60   ~ 0
 PTB18
-Text Label 11100 5900 0    60   ~ 0
+Text Label 10500 4400 2    60   ~ 0
 PTB19
-NoConn ~ 12600 4700
-NoConn ~ 12600 4800
+NoConn ~ 12500 6200
+NoConn ~ 12500 6100
 $Comp
 L R R12
 U 1 1 59D3EE54
@@ -1156,13 +1139,13 @@ NoConn ~ 1300 5400
 $Comp
 L +3V3 #PWR034
 U 1 1 59D46B5B
-P 13200 5000
-F 0 "#PWR034" H 13200 4850 50  0001 C CNN
-F 1 "+3V3" H 13200 5140 50  0000 C CNN
-F 2 "" H 13200 5000 50  0001 C CNN
-F 3 "" H 13200 5000 50  0001 C CNN
-	1    13200 5000
-	-1   0    0    -1  
+P 13100 6000
+F 0 "#PWR034" H 13100 5850 50  0001 C CNN
+F 1 "+3V3" H 13100 6140 50  0000 C CNN
+F 2 "" H 13100 6000 50  0001 C CNN
+F 3 "" H 13100 6000 50  0001 C CNN
+	1    13100 6000
+	1    0    0    -1  
 $EndComp
 Text Label 4200 3300 2    60   ~ 0
 PTE0/UART1_TX
@@ -1222,7 +1205,7 @@ F 3 "" H 7950 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG J1
+L USB_OTG-RESCUE-k20_dev_board J1
 U 1 1 59D28A57
 P 1000 5200
 F 0 "J1" H 800 5650 50  0000 L CNN
@@ -1282,18 +1265,11 @@ F 3 "" H 3050 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 4900 10600 4900
-Wire Wire Line
-	13200 5000 12600 5000
+	9700 6000 10500 6000
 Wire Wire Line
 	2250 4850 2250 4900
-Connection ~ 12700 5200
 Wire Wire Line
-	12700 5300 12700 5200
-Wire Wire Line
-	12600 5300 12700 5300
-Wire Wire Line
-	12600 5200 13200 5200
+	12500 5600 13100 5600
 Connection ~ 6700 2350
 Wire Wire Line
 	6700 2350 6800 2350
@@ -1623,4 +1599,27 @@ Connection ~ 3550 4400
 NoConn ~ 4200 5100
 Text Label 10600 3100 2    60   ~ 0
 PTC1/FTM0_CH0
+NoConn ~ 4200 4700
+NoConn ~ 8700 3000
+NoConn ~ 4200 4100
+NoConn ~ 12000 6100
+NoConn ~ 12000 6200
+NoConn ~ 12000 4700
+NoConn ~ 12000 4600
+NoConn ~ 12000 4500
+NoConn ~ 12000 4400
+NoConn ~ 11000 5600
+NoConn ~ 11000 5500
+NoConn ~ 11000 5400
+Connection ~ 12600 5600
+Wire Wire Line
+	13100 6000 12950 6000
+Wire Wire Line
+	12950 6000 12950 5900
+Wire Wire Line
+	12950 5900 12500 5900
+Wire Wire Line
+	12500 5700 12600 5700
+Wire Wire Line
+	12600 5700 12600 5600
 $EndSCHEMATC
