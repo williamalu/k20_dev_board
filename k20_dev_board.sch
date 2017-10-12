@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:k20_dev_board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -1205,7 +1204,7 @@ F 3 "" H 7950 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG-RESCUE-k20_dev_board J1
+L USB_OTG J1
 U 1 1 59D28A57
 P 1000 5200
 F 0 "J1" H 800 5650 50  0000 L CNN
